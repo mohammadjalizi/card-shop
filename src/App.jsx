@@ -1,8 +1,7 @@
 
-
+import Navbar from './appbar/Navbar'
 import './App.css'
-import Header from './assets/Header'
-
+import Page1 from './pages/Page1'
 
 function App() {
 
@@ -10,10 +9,11 @@ function App() {
   return (
   <div>
 
-
+<Navbar/>
   
-<Header/>
-<h1>my fd </h1>
+
+
+<Page1/>
   
   </div>
   )
