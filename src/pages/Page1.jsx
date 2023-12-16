@@ -10,7 +10,12 @@ const Page1 = () => {
 
 <input className=' block my-4 ' type='text' placeholder='Email'/>
 <input type='pasword' placeholder='pasword'/>
-<button className=' block bg-slate-400 my-2  p-2 m-2 shadow-2xl rounded-xl hover:bg-pink-300 '>sinign</button>
+<button onClick={(e)=>{
+
+e.preventDefault()
+
+
+}} className=' block bg-slate-400 my-2  p-2 m-2 shadow-2xl rounded-xl hover:bg-pink-300 '>sinign</button>
         </form>
 
 
